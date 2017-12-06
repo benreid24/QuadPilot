@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="QuadPilot" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/QuadPilot" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="QuadPilot" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Altimeter.cpp" />
+		<Unit filename="Altimeter.hpp" />
+		<Unit filename="GPS.cpp" />
+		<Unit filename="GPS.hpp" />
+		<Unit filename="I2C.cpp" />
+		<Unit filename="I2C.h" />
+		<Unit filename="IMU.cpp" />
+		<Unit filename="IMU.hpp" />
+		<Unit filename="Math.cpp" />
+		<Unit filename="Math.hpp" />
+		<Unit filename="Motors.cpp" />
+		<Unit filename="Motors.hpp" />
+		<Unit filename="Sonar.cpp" />
+		<Unit filename="Sonar.hpp" />
+		<Unit filename="Systems.cpp" />
+		<Unit filename="Systems.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

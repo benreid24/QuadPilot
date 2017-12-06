@@ -1,0 +1,6 @@
+*.layout
+*.exe
+*.o
+*.depend
+Documentation/html
+Documentation/latex
